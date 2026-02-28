@@ -33,6 +33,7 @@ The frontend will start on http://localhost:3000
 2. **T3-T4**: Frontend uses clientSecret with Stripe.js to process payment
 3. **T5-T8**: Stripe sends webhook → Backend verifies signature → Updates order to PAID → Syncs to NetSuite
 
+![img.png](img.png)
 ## API Endpoints Used
 
 - `GET /api/orders/config` - Get Stripe publishable key
