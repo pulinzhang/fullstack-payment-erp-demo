@@ -34,6 +34,9 @@ The frontend will start on http://localhost:3000
 3. **T5-T8**: Stripe sends webhook → Backend verifies signature → Updates order to PAID → Syncs to NetSuite
 
 ![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 ## API Endpoints Used
 
 - `GET /api/orders/config` - Get Stripe publishable key
