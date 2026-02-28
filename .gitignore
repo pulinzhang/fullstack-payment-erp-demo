@@ -1,0 +1,68 @@
+# ===========================
+# Dependencies
+# ===========================
+stripe2netsuite-mvp-web/node_modules/
+
+# ===========================
+# Build outputs
+# ===========================
+stripe2netsuite-mvp-web/dist/
+stripe2netsuite-mvp-web/build/
+stripe2netsuite-mvp/target/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+
+# ===========================
+# Environment
+# ===========================
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# Temp files
+# ===========================
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ===========================
+# Windows
+# ===========================
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ===========================
+# Test / Coverage
+# ===========================
+coverage/
+.nyc_output/
